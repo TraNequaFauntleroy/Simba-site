@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web:wght@300&display=swap');
+
+* {
+    width: 100%;
+    margin: 0;
+   
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(simba-background-1.png);
+    background-attachment: fixed;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 15px 0 0;
+    justify-content: flex-end;
+    background: black;
+    height: 50px;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+
+nav a {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    height: 5vh;
+    align-items:center;
+    font-size: 20px;
+}
+ 
+nav a:hover {
+    color: gold;
+    text-decoration: underline 3px #8b0000;
+}
+
+nav a:active {
+    color: gold;
+    text-decoration: underline 3px #8b0000;
+}
+
+section {
+    border: 7px solid #8b0000;
+    border-radius: 7px;
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: black;
+    opacity: .8;
+}
+
+section h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: gold;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+
+section p {
+    color: white;
+}
